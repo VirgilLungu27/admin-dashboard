@@ -12,3 +12,10 @@ header {
 header .icons {
     position: relative;
 }
+
+header .icons > input {
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    width: 28rem;
+    height: 1.8rem;
+}
