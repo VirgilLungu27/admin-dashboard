@@ -45,6 +45,7 @@ header > .welcome > div {
 header > .welcome > div > h3 {
     margin-left: 10px;
     margin-right: 20rem;
+    font-size: 25px;
 }
 
 header > .welcome > .button {
@@ -67,4 +68,22 @@ header > .welcome > .button > button {
 header > .welcome > .button > button:hover {
     cursor: pointer;
     background-color: rgba(228, 142, 100, 0.89);
+}
+
+
+.sidebar {
+   top: 0%;
+   left: 50%;
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   background-color:rgba(122, 240, 100, 0.3);
+}
+
+.sidebar > .dashboard {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
