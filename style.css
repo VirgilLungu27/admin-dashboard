@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 header {
@@ -135,6 +136,9 @@ header > .welcome > .button > button:hover {
     margin-right: 10px;
 }
 
+.main {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(122, 240, 100, 0.5));
+}
 
 .container {
     position: absolute;
@@ -152,4 +156,9 @@ header > .welcome > .button > button:hover {
     margin: 10px;
     border: 0.5px solid darkgreen;
     font-size: 17px;
+}
+
+.container > .projects > div:hover {
+    background-color: rgba(122, 240, 100, 0.12);
+    cursor: pointer;
 }
