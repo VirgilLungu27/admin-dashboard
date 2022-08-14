@@ -5,17 +5,66 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-image: linear-gradient(rgba(122, 240, 100, 0.5), rgba(255, 255, 255, 0.8))
 }
 
 header .icons {
     position: relative;
+    display: flex;
+    align-items: center;
+    left: 68%;
 }
 
 header .icons > input {
     border-radius: 5px;
-    border: 1px solid gainsboro;
+    border: 2px solid gainsboro;
     width: 28rem;
     height: 1.8rem;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+header .icons > input:focus {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+header .icons i {
+    margin: 2px;
+}
+
+header > .welcome {
+
+}
+
+header > .welcome > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header > .welcome > div > h3 {
+    margin-left: 10px;
+    margin-right: 20rem;
+}
+
+header > .welcome > .button {
+    display: flex;
+    justify-content: flex-end;
+    right: 60%;
+    top: 0%;
+}
+
+header > .welcome > .button > button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(228, 142, 100, 0.98);
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 10px;
+    width: 85px;
+}
+
+header > .welcome > .button > button:hover {
+    cursor: pointer;
+    background-color: rgba(228, 142, 100, 0.89);
 }
