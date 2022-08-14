@@ -139,5 +139,17 @@ header > .welcome > .button > button:hover {
 .container {
     position: absolute;
     left: 25%;
+}
+
+.container > .projects {
     display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+}
+
+.container > .projects > div {
+    padding: 15px;
+    margin: 10px;
+    border: 0.5px solid darkgreen;
+    font-size: 17px;
 }
