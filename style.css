@@ -111,3 +111,18 @@ header > .welcome > .button > button:hover {
 .sidebar > .preferences > div > i {
     margin-right: 10px;
 }
+
+.sidebar > .settings {
+    margin-top: 60px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sidebar > .settings > div {
+    display: flex;
+    align-items: center;     
+}
+
+.sidebar > .settings > div > i {
+    margin-right: 10px;
+}
