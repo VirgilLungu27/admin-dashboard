@@ -76,6 +76,7 @@ header > .welcome > .button > button:hover {
 .sidebar {
    top: 0%;
    width: 20%;
+   height: 100%;
    position: absolute;
    z-index: 1;
    display: flex;
@@ -94,4 +95,19 @@ header > .welcome > .button > button:hover {
 .sidebar > .dashboard > i {
    margin-right: 10px;
    margin-left: 15px;
+}
+
+.sidebar > .preferences {
+   margin-top: 100px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.sidebar > .preferences > div {
+    display: flex;
+    align-items: center;     
+}
+
+.sidebar > .preferences > div > i {
+    margin-right: 10px;
 }
