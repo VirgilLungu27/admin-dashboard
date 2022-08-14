@@ -5,6 +5,8 @@ body {
 header {
     display: flex;
     flex-direction: column;
+    width: 85%;
+    margin-left: 15%;
     background-image: linear-gradient(rgba(122, 240, 100, 0.5), rgba(255, 255, 255, 0.8))
 }
 
@@ -12,7 +14,7 @@ header .icons {
     position: relative;
     display: flex;
     align-items: center;
-    left: 68%;
+    left: 62%;
 }
 
 header .icons > input {
@@ -74,7 +76,7 @@ header > .welcome > .button > button:hover {
 .sidebar {
    top: 0%;
    left: 50%;
-   width: 25%;
+   width: 15%;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -86,4 +88,9 @@ header > .welcome > .button > button:hover {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.sidebar > .dashboard > i {
+   margin-right: 10px;
+   margin-left: 15px;
 }
