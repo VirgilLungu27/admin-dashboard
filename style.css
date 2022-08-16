@@ -160,5 +160,19 @@ header > .welcome > .button > button:hover {
 
 .container > .projects > div:hover {
     background-color: rgba(122, 240, 100, 0.12);
+}
+
+.container > .projects > div > .likeshare {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+.container > .projects > div > .likeshare > i {
+    margin-left: 8px;
+}
+
+.container > .projects > div > .likeshare > i:hover {
     cursor: pointer;
 }
