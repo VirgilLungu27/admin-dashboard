@@ -167,6 +167,7 @@ header > .welcome > .button > button:hover {
     justify-content: flex-end;
     align-items: flex-end;
     font-size: 20px;
+    position: relative;
 }
 
 .container > .projects > div > .likeshare > i {
@@ -175,4 +176,52 @@ header > .welcome > .button > button:hover {
 
 .container > .projects > div > .likeshare > i:hover {
     cursor: pointer;
+}
+
+.announcements {
+    position: absolute;
+    left: 75%;
+}
+
+.announcements > .announce-container {
+    display: grid;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.announcements > .announce-container > div {
+    display: grid;
+    border: 0.5px solid black;
+    padding: 8px;
+}
+
+.announcements > .announce-container > div:hover {
+    cursor: pointer;
+    background-color: rgba(122, 240, 100, 0.12);
+}
+
+.trending {
+    position: absolute;
+    left: 75%;
+    top: 70%;
+}
+
+.trending > .trending-container {
+    display: grid;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+
+.trending > .trending-container > div {
+    display: grid;
+    border: 0.5px solid black;
+    padding: 8px;
+}
+
+.trending > .trending-container > div:hover {
+    cursor: pointer;
+    background-color: rgba(122, 240, 100, 0.12);
 }
